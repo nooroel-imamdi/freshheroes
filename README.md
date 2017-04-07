@@ -8,4 +8,10 @@ In project 2 van de Minor Web Development 2017 aan de Hogeschool van Amsterdam i
 Voorafgaand het project is er drie weken gewerkt aan twee vakken, namelijk Performance Matters en Browser Technologie. Het doel is om deze week deze lesstof toe te passen in het project.
 
 ## Service Worker
-Deze week heb ik besteed aan het inbouwen van een Service Worker in de huidige website van Fresh Heroes. Bij het analyseren van de website kwam aan het licht dat de website niet over een fallback beschikt als de internetverbinding wegvalt bij de vaste bezoekers. De bedoeling van de Service Worker is om een aantal vaste pagina's in de cache op te slaan, zodat deze bij het verbreken van de internetverbinding alsnog bereikbaar zijn voor de vaste gebruikers. 
+Deze week heb ik besteed aan het inbouwen van een Service Worker in de huidige website van Fresh Heroes.
+
+## Wat is een Service Worker
+Een Service Worker is een script dat in de achtergrond draait van de browser. Het heeft ook geen connectie met de DOM. Zodra de Service Worker geïnstalleerd is kan het daarom los van de web applicatie draaien.
+
+## Werkzaamheden
+Bij het analyseren van de website kwam aan het licht dat de website niet over een fallback beschikt als de internetverbinding wegvalt bij de vaste bezoekers. De bedoeling van de Service Worker is om een aantal vaste pagina's in de cache op te slaan, zodat deze bij het verbreken van de internetverbinding alsnog bereikbaar zijn voor de vaste gebruikers.
